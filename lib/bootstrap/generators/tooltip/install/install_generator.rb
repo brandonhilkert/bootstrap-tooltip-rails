@@ -1,9 +1,9 @@
-require 'rails'
+require "rails/generators"
 
 module Tooltip
   module Generators
 
-    class InstallGenerator < Rails::Generators::Base
+    class InstallGenerator < ::Rails::Generators::Base
       desc "This generator installs Bootstrap Tootsip to the Asset Pipeline"
 
       def add_assets
