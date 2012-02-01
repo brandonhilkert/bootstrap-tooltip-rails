@@ -34,9 +34,18 @@ add the following to application.css
 Usage
 ---
 
+Add the following to the view or global JS include:
+
+```javascript
+$(function(){
+  $("a[rel='tooltip']").tooltip();
+})
+````
 
 Requirements
 ----
+
+bootstrap-tooltip-rails requires a Rails application with Asset pipeline.
 
 
 Copyright
