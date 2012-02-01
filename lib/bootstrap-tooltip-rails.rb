@@ -1,4 +1,4 @@
-require "bootstrap/toolsip/rails/version"
+require "bootstrap/tooltip/rails/version"
 
 
 module Bootstrap
