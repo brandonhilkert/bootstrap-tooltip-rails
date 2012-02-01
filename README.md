@@ -17,6 +17,20 @@ Bundle application to install:
 Configiration
 ---
 
+To add the .js and .css assets to the asset manifest files, run the following:
+
+    rails g bootstrap:tooltip:install
+
+If you prefer to add the assets manually, do the following:
+
+add the following to application.js
+
+    //= require bootstrap/bootstrap-tooltip
+
+add the following to application.css
+
+    *= require bootstrap/bootstrap-tooltip
+
 Usage
 ---
 
