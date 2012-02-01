@@ -1,3 +1,5 @@
+require 'rails'
+
 module Tooltip
   module Generators
 
