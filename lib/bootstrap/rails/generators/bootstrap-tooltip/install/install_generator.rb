@@ -1,7 +1,7 @@
 module Bootstrap
   module Generators
 
-    class InstallGenerator < Rails::Generators::Base
+    class InstallGenerator < Rails::Generators::NamedBase
       desc "This generator installs Bootstrap Toolsip to the Asset Pipeline"
 
       def add_assets
