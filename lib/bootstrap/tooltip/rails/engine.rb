@@ -1,10 +1,11 @@
 require 'rails'
 
 module Bootstrap
-  module Rails
-    class Engine < ::Rails::Engine
-   
+  module Tooltip
+    module Rails
+      class Engine < ::Rails::Engine
 
+      end
     end
   end
 end

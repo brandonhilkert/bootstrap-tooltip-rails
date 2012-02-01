@@ -1,10 +1,10 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "bootstrap-tooltip-rails/version"
+require "bootstrap/tooltip/rails/version"
 
 Gem::Specification.new do |s|
   s.name        = "bootstrap-tooltip-rails"
-  s.version     = BootstrapTooltip::Rails::VERSION
+  s.version     = Bootstrap::Tooltip::Rails::VERSION
   s.authors     = ["Brandon Hilkert"]
   s.email       = ["brandonhilkert@gmail.com"]
   s.homepage    = ""
