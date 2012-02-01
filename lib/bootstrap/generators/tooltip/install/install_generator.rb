@@ -1,8 +1,8 @@
 module Tooltip
   module Generators
 
-    class InstallGenerator < Rails::Generators::NamedBase
-      desc "This generator installs Bootstrap Toolsip to the Asset Pipeline"
+    class InstallGenerator < Rails::Generators::Base
+      desc "This generator installs Bootstrap Tootsip to the Asset Pipeline"
 
       def add_assets
         if File.exist?("app/assets/javascripts/application.js")
